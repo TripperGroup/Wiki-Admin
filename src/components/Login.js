@@ -49,7 +49,7 @@ class Login extends React.Component {
 
   render() {
     const { errMsg } = this.state;
-    const wpBaseUrl = caches('wpBaseUrl');
+    //const wpBaseUrl = caches('wpBaseUrl');
     const { loginLogo } = this.context.staticFiles;
 
     return (
