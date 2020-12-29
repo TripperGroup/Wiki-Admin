@@ -10,9 +10,17 @@ import comments from './comments';
 import dashboard from './dashboard';
 import media from './media';
 
-export default {dashboard, posts, media, pages, categories, tags, comments, users, profile, settings};
+export default {
+  dashboard,
+  posts,
+  media,
+  pages,
+  categories,
+  comments,
+  users,
+  profile,
+};
 
 const defaultContent = dashboard;
 
-export {defaultContent}
-
+export { defaultContent };
